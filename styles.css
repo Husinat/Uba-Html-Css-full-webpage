@@ -3,6 +3,21 @@
     padding: 0;
 }
 
+.respon{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #9F332A; 
+    color: white;
+    padding: 5px;
+    text-align: center;
+    /* font-weight: bold; */
+    z-index: 1000;
+    margin: 0;
+border: none;
+}
+
 .container{
     /* max-width: 85%;
     margin: 0 auto; */
@@ -420,9 +435,8 @@ color: white;
     height: 70vh;
     background-color:white;
     border-radius: 20px;
-box-shadow:        1px 1px 2px #cccccc,
+    box-shadow: 1px 1px 2px #cccccc,
              -1px -1px 2px #d0d0d0;
-
     overflow: hidden;
     margin-bottom: 100px;
    }
